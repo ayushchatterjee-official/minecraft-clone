@@ -1,0 +1,30 @@
+{
+  "name": "minecraft-clone",
+  "version": "1.0.0",
+  "description": "A simple clone of Minecraft built with TypeScript.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "three": "^0.132.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/minecraft-clone.git"
+  },
+  "keywords": [
+    "minecraft",
+    "clone",
+    "game",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
